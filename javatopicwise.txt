@@ -1,0 +1,85 @@
+1.what is programming language.
+2.types of programming languages.
+3.ava Introduction.
+4.history of java.
+5.principles of java.
+6.java installation.
+7.java program execution flow.
+8.JDKvsJRE.
+9.JVM architecture.
+10.Identifiers and keywords.
+11.datatypes.
+12.variables.
+13.methods.
+14.Arrays.
+15.StringsHandling
+16.object oriented principles
+17.constructors.
+18.interfaces.
+19.programs related to oops.
+20.final classes.
+21.abstract classes.
+22.Exception handling.
+23.Multi-threading.
+24.concurancy package
+25.Executor framework.
+26.syncronization.
+27.lock mechanism.
+28.serialization.
+29.wrappeer classes
+30.Autoboxing,unboxing
+31.java memory management.
+32.class loader implementation.
+33.variable aruguments.
+34.file IO operations.
+35.introduction to collection framework.
+36.list.
+37.set.
+38.map.
+39.properties.
+40.internal implementation of collection.(list,set,map).
+41.java 8 features.
+42.Lambda expressions.
+43.functional interfaces.
+44.default and static methods.
+45.method references.
+46.Date and time API changes.
+47.Stream API
+48.Optional class
+49.splitIterator
+50.packages
+
+
+HTML:
+1.HTML introduction.
+2.HTML document structure.
+3.HEadings
+4.paragraphs.
+5.typography.
+6.HTML links.
+7.images in html.
+8.atributes.
+9.lists.
+10.html tables.
+11.forms & inputs.
+12.block and inline elements.
+13.DIvs.
+14.spans.
+15.classes & idS
+16.iframes.
+17.HTML5 sematics.
+
+CSS :
+1.css introduction
+2.basic css selectors.
+3.dev tools introduction.
+4.fonts.
+5.colors.
+6.backgrounds.
+7.borders.
+8.boxModel
+9.margin & padding
+10.display,alignment & positioning
+11.pseudo selectors
+12.responsive layouts.
+13.

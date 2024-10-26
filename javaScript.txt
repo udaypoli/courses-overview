@@ -1,0 +1,184 @@
+ javaScript:
+1.what is java Script
+  -> it is a programing language but, it was called scripting language.
+ before 2010 it is only for writing scipts  inside browser only but after 2010 we can write outside
+ the browser so that we can cal it as programing language
+2. what is progaming language 
+  -> any language which takes input, it can process and based on the condition it takes decision to generate output 
+3. what is the purpose of javascript
+  -> i.to create dynamic user interface on web page 
+    ii. it is used to do clint side validation as well as serverside validation 
+   iii. it is used to interact or integrate to frontend and backend
+4. what typee of application we can  build using javascrript
+  -> front end app, backend app, manage dtabase app.
+5.neeed softwares
+ i. vs code : ide
+ ii. node js : which is runtime environment
+6. what is program
+  -> it is a set of instructions to perform action 
+7. what is process
+  -> it is a running state off a program 
+8. variables in javascript 
+  -> variables are the references which is used to pointing to the memory location 
+9.why do we required variables 
+  -> variables are required to store the data in the memory while executing the progam
+10.how to create variables in javascript 
+    scope statements:  1. var 2. let 3. const
+
+  -> syntax: <scopestatement> <variableName>;-> Variable declaration 
+ 			variablename=data;-> variable assignment
+ 		<scopestatemeent><variableName>=<data>;-> variable initialization 
+11. types of data
+ premitive(immutable) and non premitive (mutables) we can find thee type of data using (typeOf) keyword 
+	numbers
+	bigInt
+	Boolean
+	string(" ", ' ', backtics)
+	null
+	undefined : which is form when we doent assign any value to thee variable and annonimus function .
+	symbol
+	object
+	a datatype which is derived from preemitive datatype is called non premitive data types.
+
+we can print data using console.log();
+95% users (numbr,boolean,string,object).
+12.functions :
+  -> it takes set of instruction and wrapped in to the block and perform specific tsk
+	function fn(){}-> called function definition or unction declaration {}_> block cal be called as body , scope,block.
+  are of different types : 	1.narmal function function fn(){};
+				2. parameterised function function fn(a,b){};
+				3.annonimous function function(){};-> which applicable at return keyword side and to call as function as an argument
+				4. calbackfunctions a function which is called as an argument that function called calbackfunction 
+				5.hieroderfunction a functions which tkes functions as argument that function call as hiorder function 
+				6. function expression a annononimous function which give referece to variable that type of function cal as functions 					   expression var a=function(){console.log(" ");};
+13. Object : { a: 12,b:13}
+  -> object is nothing but it stores multiple values including object also and functions also .
+4.Array : 
+ ->array is also an object.
+	i. add a new elment at lost we use arr.push(''); 
+	ii. for firts we use arr.unshift('');
+	iii.(modify) to add or remove  element at specific position arr.splice(staritng  index, how mant elemnts wnt to remove,elements want to add);
+	iV. to remov eelemt at staring and  poation  arr.shift();
+	V. to remove at last element arr.pop();
+	vi.to extract sertain part of an array we use rr.slice(stindex,endinx) but last index vale cannot extract but it doesn't effect the original array.
+	vii. indexOf(),lastIndexOf();
+	viii. includes()->it tells the value is prent or not in an array
+	ix. arr.foreach(function(element,index){ console.log(e,index);});
+	x. arr.map():
+	xi.arr.filter();
+14.seecial oparatiors :
+  ->typeof,await,new,of,in,delete.
+  (==)->which is used t check the type if both oparands are not same type it convers and then check the values
+  (===) first it check the type if both oparands are not sametype then it returns false that means it is strict.
+loops: for,dowhile,while,for in, for of
+    for(var a in obj){ console.log(a->here the object of keys are stored to acces that we use obj[a]};
+    for(var b of arr){ console.log(b->which is usd to print the array values};
+15.special value: undefined->whenever we create a variable or parameter and if we dont assign any data to it, then javscript ssign one special values to the variable and parameter and tht special alues is undefined.
+
+
+1.DOM(Document object model) : it is nothing but all the html elements witch converts to objects and form ll the objects in the form of tree type data structre .(browser engine is responsible to to all these things)
+		browser engine converts html elemets ->bytes->characters->tokens->objects(nodes).
+CSSOM: it converts in the form of tree structure
+			brower
+			 |
+			document
+			 |
+			html
+			|    |
+		     head    body
+
+			browser engine renduring  the cssom and html tree  combines and create final structure that is called renduring tree
+  -> based on renduring tree it paints on screen
+2. why DOM is created :
+	->browser is created dom using javascript we can manipulate the html elements so that we can create dynamic user interface.
+3. DOM manipulation : which is required to manipulate the html elements and provide to user dynamic user interface.
+4. how to access dom objects( html element) : using id,class,tagname,name attribute.
+	-> brower is providing predefined oject and functions (DOM api)
+
+5.how to integrate html an javascript : 
+			<script>dhadj</script>->which is used when we create javascript file inside html file.
+			<script src=" path of javascrit file"></script>-> when javascript file create externally.
+	if we acess data wth any way that can be given in the form of collection array
+	1.innertext=it modify or ccess the text without consider tags (but it consider the css properties)
+	2.innerHTML=it modifies or access the content and by consider the tags (<b>hiii</b>
+	3.textcontent=it modifie or access the text without consider the tags (but it doesn't consider the css 				props)
+	4.outertext=it repaces the text
+	5.outterHTML=it repelaces the elementand consider the tags. 
+6.Events :
+7.spread Oparator(...obj)->it is used to copy the properties of an object or array;
+		 obj=[{a:1,b:2,c:3},{a:4,b:5,c:6}];
+        obj2=[...obj];
+        console.log(obj2);
+
+8.rest paramenter(...obj) it is similar to spread but it uses as parameter to the function that stores the rest of rgument passes by arguments.
+			* but it should be the last one.
+			fn2=(a,b,c,...f)=>console.log(f);
+        fn2(1,2,3,4,5,6,7);
+
+9.destructuring : it is used to un pack the propertices in a object or array
+			var{proNAme,propName}=obj;->for object
+			var[elemeens1, eleement2,element3]=arr;->for arry
+			* we can call directly with element ->console.log(elemen1);
+10.arrow function : var fn=()=> return "hii";
+11.this : it is a keyword which is pointing to the current object 
+		* when using arrow functions it doesn't pointing to the local properties unlike narmal function 
+			points to the window object
+
+12.clousers  it is nothing but to get accesss the scope of outerfnction variables ininside the function even it ends
+			outFunc=()=>{
+        let name="sagan";
+        innerFunc=(a,b)=>console.log(a*b+ " and name : "+name);
+        return innerFunc;
+       }
+        inn2=outFunc();
+        inn2(2,4);
+	even though we cll innerfuntion it can get scope of outfunction members.
+
+13.module: it is a pattern which is used to access the members in one file to another file.
+			node js environment we have pre defined value which is "module->it has 'exports' prop"
+				module.exports={a,b,c};
+			if we want to export only one member use this module.exports=dispay;
+		we can access using by using require("fileadress");
+					|< these type of patterns called common js module.
+
+14.es module pattern : we can use in 2  ways using extension as .mjs in that use export in what we wnt to export
+			use import{a,v} from "./"; 
+			using package.json created inside the folder with in we use { "type":"module"} no need to 													use .mjs
+
+15. call, apply, bind :
+call : method is used to access the this keyword for current object fn.call(obj, a,b);
+apply : method to access the this keyword into carrent object fn.apply(obj,[a,b]);
+bind : which is similar to call method but it return the function inseted of printing 
+
+16. hoisting : it is nothing but wen we try to excute a variable before intitializing the variable is created and 		initialize with undefined once the execution it re assig the original vlue.
+		cosole.log(a); // undefined
+		var a=12;
+17.shadowing : it is a feature to create variable in multiple times with same name . it is possible for only var 
+
+18. scope statements : var,let, const.
+
+class,constructor:
+19.promise : which is a special object wwitch contains success information or error information
+		promise object is created using special constructor called promise
+		hoe to cteate promise oject var prom= new Promise((resolve, reject)=>{
+  					  resolve(100); //success daata
+   					 reject(20);//error data
+						});
+		promise objctcalled one clbackfunctin that function have two parameters success, failure that functions return to the reference.
+		it has 3 states
+		1.pending state->empty promise object
+		2.fullflled state ->promise object has stored using resolve function
+		3.rejected state ->data stored in the promise object using reject.
+	then() and catch();
+	
+	as a frontend developer we naver create a promise object we hasve a change to consume the promise object 
+	using promise<obj>.then(function(){}).catch(function(){});
+	if it has success data that store in then function
+ we can us the promises uing async and await keywords.
+
+
+
+
+
+
+

@@ -1,0 +1,277 @@
+what is html and why-> it is  markup language which is for  structure  the content of web pags
+what is web application-> it is an application or software which is runs on web server we can acces the application thorough internet on browser.
+why web application -> for business purpose like product setting etc. and to connect with multiple users at same time.
+wht is website -> it is nothing but a particular location of web application which is on server.
+webpage-> it is a electronic page which is used to display some content 
+
+
+
+ software required : vscode and live server extension.
+ sortcut to open browser : alt+l alt+o;
+
+what is element -> itt a future 
+ elements are providing some set of tags.
+ what is tag -> it a format of elemts
+-> 3 types of tags 1.open tag <tagName>,closing tag</tagName>, self closing tag<tagName/>.
+heading elemtns-> h1,h2,h3,h4,h5,h6.
+paragraph element: p;
+bold element : b;
+List elements : 3 types 
+ 1. ordered list<ol>->ordered list, <li>->list items
+ 2. un ordered list<ul><li>
+ 3. definition list.<dl><dt>->defition term <dd> definition description.
+ (Atribute type->which is for ol,ul it represents  the serial wise,
+		start->which is for ol it tells where to start,
+		reversed->which tells from stating to reverse order its for ol->it work only for numbers.
+
+HTML can create with two steps: 
+		1. document declaration-> it tells which version we are using <!DOCTYPE html>-> it tells new 			   technique to browser.
+		2. document scope.<html lang=" "> scope</html> lang->------------------
+image Element :it is for display the img on the browser it is a self closing tag
+		<img/>->px can be understand rowser we no need o give
+				->src->adress,
+				width->width of the image,
+				height->heightof the image ,
+				alt->suppose if image fail to display it will help to show the text.
+TableElement : table concept is not only used to store the data in tabler format but  it is also for creating layouts.
+<table>  attribute :frame->border,box,(above,below)->hsides,(lhs,rhs)->vsides,void.
+,rules->all,rows,cols,groups,none.
+,width,height,rowspan(joing rows),colspan(joining cols),(cellpadding,cellspacing,border),valign,align
+<caption>
+		<thead>
+		<tbody>
+		<tfoot>
+		<th>
+		<tr>->shortcut to create multiple tr's : tr*5;
+		<td>
+Anchor Element : 
+		By using anchor element we can create links.
+		-> we can navigate one web page to another web page.->inter-navigation
+		-> navigate to one section to another section in same web page.->intra-navigation
+		<a> attribute : href,
+				target->_blank,_self,_top,_parent,frameName(iframe).
+Div Element : div element is used to create different section 
+		why div only uses?-> particularly browser connon applied any padding and margin to the element tha is why we preffer
+
+forms-.>action,target,method :form is nothing but a userinterrface using the interface wee can take data from user
+		we can create-> 1.login forms
+				 2.registration form
+ 					3. feedback form
+ 						4.online exam
+	from is a ontainer we hve lot of elements present 
+			<input type="text" maxlength="4" size="4" minlength="4"  disabled required readonly value="1234" >
+	{
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+}
+			input type="password";
+			input type="button";
+			input type="number"->it allows  only numbers and also allow 'e' 
+			input type="color"
+			input type="date"
+			input type="rdio"
+{
+<form>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">JavaScript</label>
+</form>
+}		*name should be same.
+			input type="checkbox"
+{
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form>
+}
+
+			(input list="(datalist id) datalist->option)->autosuggestin
+
+	 <input type="text" list="mylist">
+       
+        <datalist id="mylist">
+            <option value="uday"></option>
+            <option value="sagan"></option>
+            <option value="margin"></option>
+            <option value="showekley"></option>
+        </datalist>
+select : 
+{
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars" size="3">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select><br><br>
+  <input type="submit">
+</form>
+}
+<form action="">
+           <select name="" id="">
+            <optgroup label="progrming">
+                <option value="">java</option>
+                <option value="">python</option>
+                <option value="">c++</option>
+            </optgroup>
+            <optgroup label="framework">
+                <option value=""> springboot</option>
+                <option value="">angular</option>
+                <option value="">ASP.net</option>
+            </optgroup>
+           </select>
+        </form>
+textArea:
+	<div class="container">
+        <h2>text area feature</h2>
+        <textarea name="" id="" rows="5" cols="30"></textarea>
+    </div>
+
+
+marquee->it is like a ontainr where we can add text or img it gives us scrollable effect
+attributes : direction,behavior,scrollamount,scrolldelay,loop.
+iframe->it is a continer to view the outside document within the document.. src,name
+
+sematic tags->which is nothing the tags can be identified by thir tag names 
+	1.table,2,form,3,header, footer,main,aside,details,summary,nav,figure,article,section.
+					
+deatails and summary : <details>
+        <summary>ma name is : </summary>
+        <h1>udayasagan</h1>
+    </details>
+
+audio : <audio controls>
+        <source src="#audio.mp3">
+    </audio>
+
+video : <video src="#video.mp4" controls autoplay muted poster=""></video>
+-------------------------------------------------------------------------
+
+what is css-> it is a styling language
+ which is used to provide properties to html elemnts to structure the content in differet styles.
+css have properties have differentiate with key : value;
+css code can be adds to html in three ways :
+ inline->we can use this as tribute on inside html element to provide addition properties to the html element by using style attribute (gofor when we use less then 3 poperties)
+ internal->create style elemnt inside headsection(recomanded)->it is applicable to one page .
+external-> <link ref="stylesheet" href="path of css"/>->headSection.
+selector :
+	selectors are nthing to acces the particular element of html to provide css properties
+	using : id(#)->which is for unique element
+		class(.)->which is used when if we want to provide propertiesto multiple emlements with in single shot
+		tagname->which is directly applicable to the particular tag where ever we use.
+
+cssProperties :{color,font-size,background-color,text-align,
+text-decoration(underline,overline,line-through,none)text-decoration-color,text-decoration-style: (solid ,dotted,dshed,wavy),text-decoration-line.
+text-decoration : lines style color; (underline,dotted,black);
+border :width,style,color;(2px,dotted,green);
+
+1.color
+2.font-size
+font-weight-.BOLD CONTENT
+3.background-color
+4.text-align
+  ->letter-spaing:2px;
+  -> word-spacing:3px;
+5.text-decoration
+6.text-transform (uppercase,lowercase,capitalize)
+7.text-shadow(x-axis y-axis blur color)
+8.direction(ltr,rtl)->which is show the direction to appier the shadow
+9.border :width,style,color;(2px,dotted,green);
+10.width, height(height depends on parant when we want to give with percentage 
+11. margin->margin is used to provie the space outside the border border : top right bottom left; argin:auto->means it will come to ceentre.
+12 padding-> which provide space in between border and content padding : top right bottom left
+
+layout-> it is nothing but to arraging items in specific way.
+Flex : -> usig tthis we can create layout i one direction it can be either row or column
+1. display:flex-> it converted to flex container
+2.flex-direction-> provide direction
+3.justify-content->which is to arrange the align in horizontal way
+4.align-items-> which is to align the iems in vertical direction.
+
+vw-these are the units which is view poet width
+vh-view port height
+viewport(visual area).
+
+Netflix :
+1.background-image:url("imageurl")
+2.background-repeat->it can control the repeats.
+3.background-size:cover-> it occupies the entire space
+		  contain->we cant lose the image pxs.
+			constum widhth, height(20px 30px);
+
+4.background-attachement-> we can fix the image 
+5.background-position->top left; whic is for 9 sides
+to provide transparent rgba 0-255->background-color:rgba(0,255,0,0.1-1)
+
+grid : 
+to create grid use display :grid;
+how to create columns grid-temlate-columns: px px; if we want equaldiv width use 1fr
+how to create rows grid-temlate-rows: px px;
+grid-colum start :1
+grd-column-ends : 3;
+grid-column : 1/3;(like rowspan 
+row-gap: px;
+column-gap:px;
+
+elemts types : 
+	1.inline (if content comes in same line)
+	2.block elements(elements are stanting in new line those are called block element.)
+
+position: it is nothing to change the position with out have space
+		1. static
+		2.relative->it take refrence from same position
+		3.obsolute-> it take reference from html element.(if it consider his parent container use position as relative in parent container
+		4.sticky->relative+fixed
+		5.fixed.->if position is fixed if we do sccroll it will not scroll. it consider the referenceof html element.
+	->we can take the help of these 4 we do the operation
+		1.left 2.right, 3.top, 4.bottom.
+	*(when uing position if two contents are in same position at that time second position display over first , if we want to have a back of content 
+		use z-index->(0->is by default. if we make to 1 that comes first)
+
+	transform property specifies the elmnt in oe state to another state
+ transform :rotate(50deg) translate(100px) scale(100px)->first it lakes right to left
+we have 3 properties
+		1.rotate degrees x,y,z
+		2.translate x,y,z
+		3.scale x,y
+
+	It provides the time interval for the particular elements which perform what attributes are manupulated
+transition: propertyName time transition timing function transition deleytime;
+
+	Aniations property specifies the elements in different states
+	1.annimationName
+	2.animation duration
+	3.anmation Iteration
+	4.animationdeley
+	it has one @keyFrames animationNmae{from{} to{}};
+
+mediaqueories:it is a poperty that mkes the responsive web document
+		@media  screen and()and() {
+            p{
+                color: red;
+            }
+        }
+if we want to give two different css documets use like ths
+<link rel="stylesheet" href="#" media="screen and(condition)">
+psudo class : 
+display : 
+
+
+
+
+
+
+
