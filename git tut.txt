@@ -5,3 +5,4 @@
 5.git commit -m 'comment'
 6.git remote add origin <url> to check git remote -v to update git remote set-url origin<url>
 7.git push -u origin main.
+8.git clone <url>
