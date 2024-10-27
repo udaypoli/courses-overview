@@ -16,4 +16,22 @@
 16. git stash apply stash@{n}
 17.git stash pop stash@{n}->apply and delete
 
+what i branch in git hub
+-> branch is just a code base 
+-> we can create several branches in git repository
+	git branches like 
+->branches are for to continue the work parallelly
+->to avoid the code integration problems
+master->(default)->
+develop-> for new realease on ging team commit changes 
+feature,
+QA->whenever testing stage any bugs occur that can handle by bug fixing team
+uat, 
+release->the code which is present in this branch is realsed to production server production support team.
+
+here several subteams are there in development 
+	1.ongoing dev team-> new requrements come from clint(master) code will not be clear
+	2.bugfix team	  ->bugs occurs at testing time(master)
+	3.production or maitenace and operation team -> these team is responsible to resolve the problems in 								production
+
 
