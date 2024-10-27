@@ -17,6 +17,8 @@
 17.git stash pop stash@{n}->apply and delete
 18. to clone data from different branch ->git clone -b develop <url>
 19.if we want to switch to another brach we use git switch <branch name>
+20.git config --global user.name " "
+21.git confil --global user.email " "
 
 what i branch in git hub
 -> branch is just a code base 
