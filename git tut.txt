@@ -11,4 +11,5 @@
 11.git remote remove origin
 12.git stash
 13.git stash apply
+14.git stash clear
 
