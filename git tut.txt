@@ -6,11 +6,9 @@
 6.git remote add origin <url> to check git remote -v to update git remote set-url origin<url>
 7.git push -u origin main.
 8.git clone <url>
-<<<<<<< Updated upstream
-13.git stash apply
-=======
 9. git push
 10.git remote -v
 11.git remote remove origin
 12.git stash
->>>>>>> Stashed changes
+13.git stash apply
+
