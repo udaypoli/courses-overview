@@ -12,4 +12,8 @@
 12.git stash
 13.git stash apply
 14.git stash clear
+15.git stash list
+16. git stash apply stash@{n}
+17.git stash pop stash@{n}->apply and delete
+
 
