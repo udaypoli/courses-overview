@@ -15,6 +15,7 @@
 15.git stash list
 16. git stash apply stash@{n}
 17.git stash pop stash@{n}->apply and delete
+18. to clone data from different branch ->git clone -b develop <url>
 
 what i branch in git hub
 -> branch is just a code base 
